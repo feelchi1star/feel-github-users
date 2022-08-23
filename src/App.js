@@ -1,14 +1,24 @@
-import React from 'react';
-import './App.css';
-import  Component2  from './component/Component2';
+import React from "react";
+import { Dashboard, Login, PrivateRoute, AuthWrapper, Error } from "./pages";
+import { Routes, Route } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        oknkn
-      </header>
-      <Component2 />
-    </div>
+    <AuthWrapper>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <PrivateRoute>
+              <Dashboard />
+            </PrivateRoute>
+          }
+        />
+
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </AuthWrapper>
   );
 }
 
