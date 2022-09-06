@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "//wetestingit.infinityfreeapp.com/static/css/main.27cc9fee.css",
+    "main.js": "//wetestingit.infinityfreeapp.com/static/js/main.0f919f7a.js",
+    "static/media/preloader.gif": "//wetestingit.infinityfreeapp.com/static/media/preloader.a6525050b19ec22d72cd.gif",
+    "static/media/login-img.svg": "//wetestingit.infinityfreeapp.com/static/media/login-img.45d3b74fbb4ac483314eef377e006a54.svg",
+    "index.html": "//wetestingit.infinityfreeapp.com/index.html",
+    "main.27cc9fee.css.map": "//wetestingit.infinityfreeapp.com/static/css/main.27cc9fee.css.map",
+    "main.0f919f7a.js.map": "//wetestingit.infinityfreeapp.com/static/js/main.0f919f7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27cc9fee.css",
+    "static/js/main.0f919f7a.js"
+  ]
+}
