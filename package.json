@@ -1,6 +1,7 @@
 {
   "name": "githubusers",
   "version": "0.1.0",
+  "homepage": "http://http://wetestingit.infinityfreeapp.com",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.10.2",
